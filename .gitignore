@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+env/
+admet-ai-env/
+
+# Large Datasets and Checkpoints
+*.txt
+chembl_*.txt
+step1_lipinski_scaffolds.csv
+step2_bace_candidates.csv
+admet_progress_checkpoint.csv
+final_admet_bace_results.csv
+docking_bace1/1FKN.pdb
+docking_bace1/ligands/
+docking_bace1/docked_poses/*.sdf
+!docking_bace1/docked_poses/top5_*.sdf
+
+# OS
+.DS_Store
+Thumbs.db
